@@ -1,0 +1,64 @@
+.featured {
+  margin: 20px;
+  /* margin: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.featuredItem {
+  flex: 1;
+  cursor: pointer;
+  margin: 0 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 20px -7px rgba(31, 31, 31, 0.75);
+  box-shadow: 5px 5px 20px -7px rgba(37, 37, 37, 0.75);
+}
+.featuredTitle {
+  padding: 20px 20px 0 0;
+  color: #fff;
+  font-size: 20px;
+}
+.featuredMoneyContainer {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+.featuredMoney{
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+}
+.featuredMoneyRate{
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  color: #fff;
+}
+.featuredIcon{
+  font-size: 14px;
+  margin-right: 5px;
+  color: green;
+}
+.featuredSub{
+  margin: 20px 20px;
+  color: #f5f5f5;
+  font-size: 14px;
+  padding: 0 0 10px 10px;
+}
+.revenue{
+  background: linear-gradient(320deg, #4dc4cf,#8d0db4);
+}
+.sales{
+  background: linear-gradient(320deg, #4ec2c2,#2cda15);
+}
+.costs{
+  background: linear-gradient(320deg, #ad26d6,#ff0000);
+}
+.featuredMoneyIcon{
+  margin-right: 20px;
+  font-size: 50px !important;
+  opacity: 0.7;
+  color: #fff;
+}
+.featuredIcon.minus{
+  color: #f00;
+}

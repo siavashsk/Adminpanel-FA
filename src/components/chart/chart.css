@@ -1,0 +1,11 @@
+.chart {
+    margin: 0 30px 0 40px;
+    padding: 0 5px 0 11px;
+  }
+  .chartWrapper {
+    margin-top: 20px;
+    background: #2a2a2a;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 20px -7px rgba(31, 31, 31, 0.75);
+    box-shadow: 5px 5px 20px -7px rgba(37, 37, 37, 0.75);
+  }
